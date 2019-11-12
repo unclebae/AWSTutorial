@@ -161,27 +161,26 @@
 
 클릭하면 호스팅 페이지를 확인할 수 있습니다.
 
-## 정상페이지 정보 
+## 정상페이지 정보
 
 http://test.bucket00.s3-website.ap-northeast-2.amazonaws.com(http://test.bucket00.s3-website.ap-northeast-2.amazonaws.com)
 
-에 대해서 아래와 같이 화면이 오픈됩니다. 
+에 대해서 아래와 같이 화면이 오픈됩니다.
 
 ![s318](./imgs/s318.png)
 
-## 오류페이지 보기 
+## 오류페이지 보기
 
 http://test.bucket00.s3-website.ap-northeast-2.amazonaws.com/test01(http://test.bucket00.s3-website.ap-northeast-2.amazonaws.com/test01)
 
-위처럼 없는 페이지를 입력하면 아래와 같이 열립니다. 
+위처럼 없는 페이지를 입력하면 아래와 같이 열립니다.
 
-![s319](./imgs/s318.png)
+![s319](./imgs/s319.png)
 
 # 결론
 
-S3 로 웹 호스팅은 매우 간단하게 구현할 수 있습니다. 
+S3 로 웹 호스팅은 매우 간단하게 구현할 수 있습니다.
 
-실제로는 현재까지 설정에서 Cloud Front 를 설정하여 CDN 기능을 통해 빠르게 엣지 클라우드에 캐시를 배치하여 고객에게 전달 하는 설정을 하는 것이 필요합니다. 
+실제로는 현재까지 설정에서 Cloud Front 를 설정하여 CDN 기능을 통해 빠르게 엣지 클라우드에 캐시를 배치하여 고객에게 전달 하는 설정을 하는 것이 필요합니다.
 
-그리고 Route53으로 도메인을 등록하여 서비스를 제공하는 것이 필요합니다. 
-
+그리고 Route53으로 도메인을 등록하여 서비스를 제공하는 것이 필요합니다.
