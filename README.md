@@ -52,6 +52,8 @@ Default region name: 이 부분은 서비스 되는 리젼 이름이 됩니다.
 
 Default option format: 이 부분은 json, text 필요한 값을 설정할 수 있습니다.
 
+![aws-cli-test.png](./imgs/aws-cli-test.png)
+
 ## AWSCLI 이용하기.
 
 Cli 는 한번 설치하고 나면 사용하기가 매우 쉽습니다.
